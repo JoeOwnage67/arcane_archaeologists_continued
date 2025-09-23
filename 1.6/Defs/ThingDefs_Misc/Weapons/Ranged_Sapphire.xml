@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ThingDef ParentName="RF_BaseWeapon_ArcaneWands">
+        <defName>Ogam_RunePistol</defName>
+        <label>rune pistol</label>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/Rune_pistol</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+            <drawSize>0.75</drawSize>
+        </graphicData>
+        <equippedAngleOffset>0</equippedAngleOffset>
+        <statBases>
+            <RangedWeapon_Cooldown Inherit="False">8</RangedWeapon_Cooldown>
+        </statBases>
+        <recipeMaker>
+            <researchPrerequisite>DankPyon_Gunpowder</researchPrerequisite>
+        </recipeMaker>
+        <weaponTags>
+            <li>RunePistol</li>
+        </weaponTags>
+        <costList>
+            <WoodLog>50</WoodLog>
+            <DankPyon_IronIngot>30</DankPyon_IronIngot>
+            <DankPyon_Emerald>55</DankPyon_Emerald>
+        </costList>
+        <comps>
+            <li Class="RimFantasy.CompProperties_GlowerStuffable">
+                <glowRadius>1</glowRadius>
+                <glowColor>(0,125,225)</glowColor>
+                <glowWhileOnGround>true</glowWhileOnGround>
+                <glowWhileStockpiled>true</glowWhileStockpiled>
+                <glowWhileEquipped>true</glowWhileEquipped>
+                <glowRadiusEquipped>1</glowRadiusEquipped>
+                <glowWhileDrawn>true</glowWhileDrawn>
+                <glowRadiusDrawn>1</glowRadiusDrawn>
+            </li>
+            <li Class="CompProperties_Explosive">
+                <wickTicks>90</wickTicks>
+                <explosiveRadius>2</explosiveRadius>
+                <explosiveDamageType>RF_Flame_SmallSquareRF_Emerald</explosiveDamageType>
+                <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+                <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+                <postExplosionSpawnThingDef>RF_RubbleShardsRF_Emerald</postExplosionSpawnThingDef>
+                <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+            </li>
+            <li Class="RimFantasy.CompProperties_ArcaneWeapon">
+                <biocodeOnEquip>false</biocodeOnEquip>
+                <minWeaponTraits>1</minWeaponTraits>
+                <maxWeaponTraits>3</maxWeaponTraits>
+                <weaponTraitsPool>
+                    <li>RF_MinorBlaze_Sapphire</li>
+                    <li>RF_Blaze_Sapphire</li>
+                    <li>RF_MajorBlaze_Sapphire</li>
+                    <li>RF_MinorShock_Sapphire</li>
+                    <li>RF_Shock_Sapphire</li>
+                    <li>RF_MajorShock_Sapphire</li>
+                    <li>RF_MinorHeal_Sapphire</li>
+                    <li>RF_Heal_Sapphire</li>
+                    <li>RF_MajorHeal_Sapphire</li>
+                    <li>RF_MinorDisplacement_Sapphire</li>
+                    <li>RF_Displacement_Sapphire</li>
+                    <li>RF_MajorDisplacement_Sapphire</li>
+                    <li>RF_MinorSlow_Sapphire</li>
+                    <li>RF_Slow_Sapphire</li>
+                    <li>RF_MajorSlow_Sapphire</li>
+                    <li>RF_MinorMagiciansShield</li>
+                    <li>RF_MagiciansShield</li>
+                    <li>RF_MajorMagiciansShield</li>
+                    <li>RF_MinorMagicBlast_Sapphire</li>
+                    <li>RF_MagicBlast_Sapphire</li>
+                    <li>RF_MajorMagicBlast_Sapphire</li>
+                    <li>RF_MinorFreeze</li>
+                    <li>RF_Freeze</li>
+                    <li>RF_MajorFreeze</li>
+                </weaponTraitsPool>
+            </li>
+        </comps>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>RF_LancePylon_MagicBolt</defaultProjectile>
+                <warmupTime>2.35</warmupTime>
+                <range>16</range> <!-- 35 -->
+                <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+                <burstShotCount>6</burstShotCount>
+                <soundCast>Shot_ChargeRifle</soundCast>
+                <soundCastTail>GunTail_Light</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <modExtensions>
+            <li Class="RimFantasy.RimFantasyExtension">
+                <stuffKey>Sapphire</stuffKey>
+            </li>
+            <li Class="RimFantasy.WeaponDropExtension">
+                <preventDroppingWhenDowned>true</preventDroppingWhenDowned>
+                <preventDroppingWhenDead>true</preventDroppingWhenDead>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+</Defs>

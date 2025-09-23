@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Arcane Archaeologists\\Source\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9BF1C183-6065-3AE1-492C-FDAA8BA4FED7}|ThingColor.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\arcane archaeologists\\source\\thingcolor\\apparelgraphicrecordgetter_trygetgraphicapparel_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BF1C183-6065-3AE1-492C-FDAA8BA4FED7}|ThingColor.csproj|solutionrelative:thingcolor\\apparelgraphicrecordgetter_trygetgraphicapparel_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BF1C183-6065-3AE1-492C-FDAA8BA4FED7}|ThingColor.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\arcane archaeologists\\source\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BF1C183-6065-3AE1-492C-FDAA8BA4FED7}|ThingColor.csproj|solutionrelative:properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApparelGraphicRecordGetter_TryGetGraphicApparel_Patch.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Arcane Archaeologists\\Source\\ThingColor\\ApparelGraphicRecordGetter_TryGetGraphicApparel_Patch.cs",
+              "RelativeDocumentMoniker": "ThingColor\\ApparelGraphicRecordGetter_TryGetGraphicApparel_Patch.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Arcane Archaeologists\\Source\\ThingColor\\ApparelGraphicRecordGetter_TryGetGraphicApparel_Patch.cs",
+              "RelativeToolTip": "ThingColor\\ApparelGraphicRecordGetter_TryGetGraphicApparel_Patch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T12:34:49.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Arcane Archaeologists\\Source\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Arcane Archaeologists\\Source\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T12:33:19.995Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
