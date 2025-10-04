@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+
+			<!-- Novice 
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/PawnKindDef[defName="Ogam_MA_Novice"]/apparelRequired</xpath>
+				<value>
+						
+				</value>
+			</li>-->
+
+
+			
+		</operations>
+	</Operation>
+</Patch>

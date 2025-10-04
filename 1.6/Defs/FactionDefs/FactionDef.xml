@@ -8,7 +8,7 @@
     <colorSpectrum>
       <li>(255,127,80)</li>
     </colorSpectrum>
-    <fixedName>magical academy</fixedName>
+    <fixedName>Magical Academy</fixedName>
     <factionIconPath>WorldObjects/MagicalAcademy</factionIconPath>
     <disallowedMemes>
 		<li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
@@ -18,7 +18,6 @@
 	<disallowedPrecepts>
 		<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
 		<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
-
 		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_Mandatory</li>
 		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_Mandatory</li>
 		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_CoveringAnythingButGroinDisapproved</li>
@@ -44,32 +43,35 @@
         <kindDef>Combat</kindDef>
         <commonality>100</commonality>
         <options>
-			<Ogam_MA_Archmage>5</Ogam_MA_Archmage>
-			<Ogam_MA_Guardian>25</Ogam_MA_Guardian>
-			<Ogam_MA_MagicalArcher>15</Ogam_MA_MagicalArcher>
-			<Ogam_MA_BattleMage>10</Ogam_MA_BattleMage>
-			<Ogam_MA_Wizard>15</Ogam_MA_Wizard>
-			<Ogam_MA_Novice>30</Ogam_MA_Novice>
+          <Ogam_MA_Archmage>5</Ogam_MA_Archmage>
+          <Ogam_MA_Guardian>25</Ogam_MA_Guardian>
+          <Ogam_MA_MagicalArcher>15</Ogam_MA_MagicalArcher>
+          <Ogam_MA_BattleMage>10</Ogam_MA_BattleMage>
+          <Ogam_MA_Wizard>15</Ogam_MA_Wizard>
+          <Ogam_MA_Novice>30</Ogam_MA_Novice>
+          <Ogam_MA_Prospector>15</Ogam_MA_Prospector>
         </options>
       </li>
       <li>
         <kindDef>Combat</kindDef>
         <commonality>60</commonality>
         <options>
-			<Ogam_MA_Archmage>25</Ogam_MA_Archmage>
-			<Ogam_MA_Guardian>35</Ogam_MA_Guardian>
-			<Ogam_MA_MagicalArcher>40</Ogam_MA_MagicalArcher>
+          <Ogam_MA_Archmage>25</Ogam_MA_Archmage>
+          <Ogam_MA_Guardian>35</Ogam_MA_Guardian>
+          <Ogam_MA_MagicalArcher>40</Ogam_MA_MagicalArcher>
+          <Ogam_MA_Prospector>15</Ogam_MA_Prospector>
         </options>
       </li>
       <li>
         <kindDef>Peaceful</kindDef>
         <options>
-			<Ogam_MA_Archmage>5</Ogam_MA_Archmage>
-			<Ogam_MA_Guardian>25</Ogam_MA_Guardian>
-			<Ogam_MA_MagicalArcher>15</Ogam_MA_MagicalArcher>
-			<Ogam_MA_BattleMage>10</Ogam_MA_BattleMage>
-			<Ogam_MA_Wizard>15</Ogam_MA_Wizard>
-			<Ogam_MA_Novice>30</Ogam_MA_Novice>
+          <Ogam_MA_Archmage>5</Ogam_MA_Archmage>
+          <Ogam_MA_Guardian>25</Ogam_MA_Guardian>
+          <Ogam_MA_MagicalArcher>15</Ogam_MA_MagicalArcher>
+          <Ogam_MA_BattleMage>10</Ogam_MA_BattleMage>
+          <Ogam_MA_Wizard>15</Ogam_MA_Wizard>
+          <Ogam_MA_Novice>30</Ogam_MA_Novice>
+          <Ogam_MA_Prospector>15</Ogam_MA_Prospector>
         </options>
       </li>
       <li>
@@ -84,21 +86,23 @@
           <Elephant>1</Elephant>
         </carriers>
         <guards>
-			<Ogam_MA_Guardian>25</Ogam_MA_Guardian>
-			<Ogam_MA_MagicalArcher>15</Ogam_MA_MagicalArcher>
-			<Ogam_MA_Wizard>15</Ogam_MA_Wizard>
-			<Ogam_MA_Novice>30</Ogam_MA_Novice>
+        <Ogam_MA_Guardian>25</Ogam_MA_Guardian>
+        <Ogam_MA_MagicalArcher>15</Ogam_MA_MagicalArcher>
+        <Ogam_MA_Wizard>15</Ogam_MA_Wizard>
+        <Ogam_MA_Novice>30</Ogam_MA_Novice>
+        <Ogam_MA_Prospector>15</Ogam_MA_Prospector>
         </guards>
       </li>
       <li>
         <kindDef>Settlement</kindDef>
         <options>
-			<Ogam_MA_Archmage>5</Ogam_MA_Archmage>
-			<Ogam_MA_Guardian>25</Ogam_MA_Guardian>
-			<Ogam_MA_MagicalArcher>15</Ogam_MA_MagicalArcher>
-			<Ogam_MA_BattleMage>10</Ogam_MA_BattleMage>
-			<Ogam_MA_Wizard>15</Ogam_MA_Wizard>
-			<Ogam_MA_Novice>30</Ogam_MA_Novice>
+        <Ogam_MA_Archmage>5</Ogam_MA_Archmage>
+        <Ogam_MA_Guardian>25</Ogam_MA_Guardian>
+        <Ogam_MA_MagicalArcher>15</Ogam_MA_MagicalArcher>
+        <Ogam_MA_BattleMage>10</Ogam_MA_BattleMage>
+        <Ogam_MA_Wizard>15</Ogam_MA_Wizard>
+        <Ogam_MA_Novice>30</Ogam_MA_Novice>
+        <Ogam_MA_Prospector>15</Ogam_MA_Prospector>
         </options>
       </li>
     </pawnGroupMakers>

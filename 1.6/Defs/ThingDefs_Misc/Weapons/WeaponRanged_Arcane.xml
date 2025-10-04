@@ -121,7 +121,7 @@
     <equippedStatOffsets>
       <PsychicSensitivityOffset>0.15</PsychicSensitivityOffset>
       <PsychicEntropyRecoveryRate>0.016</PsychicEntropyRecoveryRate>
-    </equippedStatOffsets>  
+    </equippedStatOffsets>
   </ThingDef>
 
   <ThingDef ParentName="Ogam_Grimoires">

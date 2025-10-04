@@ -1,44 +1,274 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
 	<TraderKindDef>
 		<defName>EEG_Caravan_Medieval_ArcaneGoodsMerchant</defName>
 		<label>arcane goods merchant</label>
 		<commonality>3</commonality>
 		<stockGenerators>
-
-			  <li Class="StockGenerator_SingleDef">
+			<!--items-->
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Ogam_GuildCloth</thingDef>
+				<countRange>80~255</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
 				<thingDef>Silver</thingDef>
 				<countRange>750~1200</countRange>
-			  </li>
-	  
+			</li>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>DankPyon_Amber</thingDef>
 				<countRange>80~155</countRange>
 			</li>
-			
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>Kibble</thingDef>
 				<countRange>150~450</countRange>
 			</li>
-			
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>Cloth</thingDef>
 				<countRange>100~400</countRange>
 			</li>
-			
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>DankPyon_Linen</thingDef>
 				<countRange>100~400</countRange>
 			</li>
-			
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>MedicineHerbal</thingDef>
 				<countRange>0~24</countRange>
 			</li>
-			
-			<li Class="StockGenerator_BuyTradeTag"><tag>DankPyon_Book</tag></li>
-			<li Class="StockGenerator_BuyTradeTag"><tag>DankPyon_Amber</tag></li>
+			<!--ogam armor-->
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Ogam_Guardian_plate_armor</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Ogam_Caster_plate_armorA</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Ogam_Caster_plate_armorB</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Ogam_RoyalCapeA</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Ogam_RoyalCapeB</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Ogam_SimpleCapeA</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Ogam_SimpleCapeB</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Ogam_Scout_padded_armorA</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Ogam_Scout_padded_armorB</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Ogam_Royal_guard_plate_armorVarA</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Ogam_Cloak</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Ogam_CloakB</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Ogam_GuardianHelmet</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Ogam_WizzardHatA</thingDef>
+				<countRange>1~2</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Ogam_WizzardHatB</thingDef>
+				<countRange>1~2</countRange>
+			</li>
+			<!--ogam weapons-->
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Ogam_AmberStaff</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Ogam_AmberBook</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Ogam_EmeraldBook</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Ogam_SapphireBook</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Ogam_RubyBook</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Ogam_RunePistol</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Ogam_AmberBanner</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Ogam_AmberLongsword</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Ogam_AmberWarHammer</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Ogam_AmberSpear</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Ogam_AmberStaff</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Ogam_RuneMortar</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<!-- rimfantasy weapons -->
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>RF_EmeraldBow</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>RF_SapphireBow</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>RF_RubyBow</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>RF_EmeraldStaff</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>RF_SapphireStaff</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>RF_RubyStaff</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>RF_EmeraldWarHammer</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>RF_SapphireWarHammer</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>RF_RubyWarHammer</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>RF_EmeraldWand</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>RF_SapphireWand</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>RF_RubyWand</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>RF_EmeraldSpear</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>RF_SapphireSpear</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>RF_RubySpear</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>RF_EmeraldRing</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>RF_SapphireRing</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>RF_RubyRing</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>RF_EmeraldLongsword</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>RF_SapphireLongsword</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>RF_RubyLongsword</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+			<!--what buy-->
+			<li Class="StockGenerator_BuyTradeTag">
+				<tag>DankPyon_Book</tag>
+			</li>
+			<li Class="StockGenerator_BuyTradeTag">
+				<tag>DankPyon_Amber</tag>
+			</li>
+			<li Class="Arcane.StockGenerator_BuyCategory">
+				<category>RF_ArcaneWeapons</category>
+			</li>
+			<li Class="Arcane.StockGenerator_BuyCategory">
+				<category>RF_ArcaneWands</category>
+			</li>
+			<li Class="Arcane.StockGenerator_BuyCategory">
+				<category>RF_ArcaneStaffs</category>
+			</li>
+			<li Class="Arcane.StockGenerator_BuyCategory">
+				<category>RF_ArcaneBows</category>
+			</li>
+			<li Class="Arcane.StockGenerator_BuyCategory">
+				<category>RF_ArcaneLongswords</category>
+			</li>
+			<li Class="Arcane.StockGenerator_BuyCategory">
+				<category>RF_ArcaneDaggers</category>
+			</li>
+			<li Class="Arcane.StockGenerator_BuyCategory">
+				<category>RF_ArcaneSpears</category>
+			</li>
+			<li Class="Arcane.StockGenerator_BuyCategory">
+				<category>RF_ArcaneBattleAxes</category>
+			</li>
+			<li Class="Arcane.StockGenerator_BuyCategory">
+				<category>RF_ArcaneWarHammers</category>
+			</li>
+			<li Class="Arcane.StockGenerator_BuyCategory">
+				<category>RF_ArcaneRings</category>
+			</li>
+			<li Class="Arcane.StockGenerator_BuyCategory">
+				<category>DankPyon_GemStones</category>
+			</li>
 		</stockGenerators>
 	</TraderKindDef>
 </Defs>

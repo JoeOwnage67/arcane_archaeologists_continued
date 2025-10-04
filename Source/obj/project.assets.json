@@ -311,11 +311,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Arcane Archaeologists\\Source\\ThingColor.csproj",
+      "projectUniqueName": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3573374885\\Source\\ThingColor.csproj",
       "projectName": "ThingColor",
-      "projectPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Arcane Archaeologists\\Source\\ThingColor.csproj",
+      "projectPath": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3573374885\\Source\\ThingColor.csproj",
       "packagesPath": "C:\\Users\\joe_h\\.nuget\\packages\\",
-      "outputPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Arcane Archaeologists\\Source\\obj\\",
+      "outputPath": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\3573374885\\Source\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

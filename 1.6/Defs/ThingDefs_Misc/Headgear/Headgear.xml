@@ -11,7 +11,7 @@
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<techLevel>Medieval</techLevel>
-		<tradeability>Sellable</tradeability>
+		<tradeability>All</tradeability>
 		<generateCommonality>0.95</generateCommonality>
 		<recipeMaker>
 			<researchPrerequisite>ComplexClothing</researchPrerequisite>
@@ -64,7 +64,7 @@
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<techLevel>Medieval</techLevel>
-		<tradeability>Sellable</tradeability>
+		<tradeability>All</tradeability>
 		<generateCommonality>0.95</generateCommonality>
 		<recipeMaker>
 			<researchPrerequisite>ComplexClothing</researchPrerequisite>
@@ -167,7 +167,7 @@
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<techLevel>Medieval</techLevel>
-		<tradeability>Sellable</tradeability>
+		<tradeability>All</tradeability>
 		<generateCommonality>0.95</generateCommonality>
 		<recipeMaker>
 			<researchPrerequisite>ComplexClothing</researchPrerequisite>
