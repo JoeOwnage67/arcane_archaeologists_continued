@@ -23,7 +23,7 @@
       <armorPenetrationBase>0.15</armorPenetrationBase>
       <speed>40</speed>
       <explosionRadius>2</explosionRadius>
-      <preExplosionSpawnThingDef>RF_RubbleShardsRF_Emerald</preExplosionSpawnThingDef>
+      <preExplosionSpawnThingDef>RF_RubbleShardsRF_Carnelian</preExplosionSpawnThingDef>
       <preExplosionSpawnChance>0.05</preExplosionSpawnChance>
       <ai_IsIncendiary>true</ai_IsIncendiary>
     </projectile>

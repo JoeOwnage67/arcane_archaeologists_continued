@@ -8,7 +8,7 @@
     <category>Attachment</category>
     <tickerType>Normal</tickerType>
     <graphicData>
-      <texPath>Things/Special/RF_EmeraldFire</texPath>
+      <texPath>Things/Special/RF_AmberFire</texPath>
       <graphicClass>Graphic_Flicker</graphicClass>
       <shaderType>TransparentPostLight</shaderType>
     </graphicData>
@@ -24,7 +24,7 @@
   <FleckDef ParentName="FleckBase_Thrown">
     <defName>RF_AmberFireGlow</defName>
     <graphicData>
-      <texPath>Things/Mote/RF_FireGlow_Emerald</texPath>
+      <texPath>Things/Mote/RF_FireGlow_Amber</texPath>
       <shaderType>MoteGlow</shaderType>
     </graphicData>
     <altitudeLayer>MoteOverhead</altitudeLayer>
